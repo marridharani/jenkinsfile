@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(_name_)
 
-USERNAME = "admin"
+USERNAME = "admin@gmail.com"
 PASSWORD = "admin123"
 
 @app.route("/login", methods=["POST"])
